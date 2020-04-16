@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <title>DISSK</title>
+    <link rel="stylesheet" href="css/main.css">
+    
+    
+</head>
+
+<body onload="onLoadMethod()">
+
+    <div class="container">
+        <div class="header">
+            <header>
+                <p id="udvidet" >Udvidet</p>
+                <p id="diskredskab" >Disk Redskab</p>
+            </header>
+        </div>
+
+        <div class="inline">
+            
+            <div class="input">
+                <label for="input" id="inputp">Input</label>
+                <textarea name="input" id="input" cols="24" rows="30" placeholder="Tekst her"></textarea>
+            </div>
+    
+            <div class="table">
+                
+                <div class="tableconten">
+                    <table id="tableData"></table>
+                </div>
+                
+                <div class="button-panel">
+                    <button class="btn btn-info" onclick="saveData()">Save Data</button>
+                    <button class="btn btn-success" id="addRowColumn" onclick="addButton()">Add Button</button>
+                    <button class="btn btn-danger" id="deleteRowColumn" onclick="deleteButton()">Delete Button</button>
+                    <button class="btn btn-danger" id="" onclick="resetButton()">Reset Button</button>
+                </div>
+            </div>
+            
+            <div class="kontekst">
+
+                <div class="box">
+                    <h1>KONTEKST</h1>
+                </div>
+
+                <div class="kontekst-wrapper">
+                    <table class="kontekst-table">
+                        <td id="kontekst-line-1">
+                            <tr><textarea name="kontekst" id="kontekst" cols="20" rows="18"></textarea></tr>
+                            <tr><textarea name="kontekst" id="kontekst" cols="20" rows="18"></textarea></tr>
+                        </td>
+                        
+                        <td id="kontekst-line-2">
+                            <tr><textarea name="kontekst" id="kontekst" cols="20" rows="18"></textarea></tr>
+                            <tr><textarea name="kontekst" id="kontekst" cols="20" rows="18"></textarea></tr>
+                        </td>
+                    </table>  
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+
+    <script src="js/script.js"></script>
+    
+</body>
+
+</html>

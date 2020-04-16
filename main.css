@@ -1,0 +1,268 @@
+*{
+    margin : 0 ; 
+    padding : 0 ; 
+    box-sizing : border-box;
+    background-color: #00303F;
+}
+.container{
+    background-color: #00303F;
+}
+
+/*working on header*/
+.header{
+    background-color: #00303F;
+    color: #E54032;
+    display : block;
+    margin-top : 10px;
+    text-transform: uppercase;
+    margin-left : 15px;
+}
+#udvidet{
+    font-size : 12px;
+    font-weight : bold;
+    margin-left : 290px;
+    background-color: #00303F;
+}
+#diskredskab{
+    font-size : 46px;
+    font-weight : bold;
+    background-color: #00303F;
+}
+/*--------------------------------------*/
+/*positioning*/
+.inline{
+    display: flex;
+    width: 100%;
+}
+.input{
+    flex: 1;
+    display: inline;
+    /*margin-top: 275px;*/
+    margin-left : 15px;
+    margin-right: 5px;
+}
+.table{
+    flex: 2;
+    display: inline;
+    /*margin-top: 5px;*/
+    margin-right: 5px;
+    padding : 1px;
+}
+.kontekst{
+    flex: 3;
+    display: inline;
+    padding: 1px;
+    margin-left: 5px;
+    
+}
+.kontekst > .box{
+    margin-bottom: 350px;
+}
+/*----------------------------------------*/
+/*input format*/
+#inputp{
+    text-transform: uppercase;
+    color: #093545;
+    background-color: rgb(221, 237, 242);
+    font-weight: bold;
+    font-size: 14px;
+    border: transparent;
+    
+}
+#input{
+    background-color: #E54032;
+}
+#input::placeholder{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+/*-----------------------------------------*/
+/*logo*/
+
+#logo{
+    width: 90%;
+    height: 10%;
+    margin-bottom: 80px;
+    margin-left: 15px;
+}
+/*-----------------------------------*/
+/*formating table*/
+table {
+    border-collapse: collapse;
+    border-radius: 6px;
+    margin: 2px auto;
+}
+table button {
+    cursor: pointer;
+}
+
+td {
+    padding: 2px;
+    text-align: center;
+}
+
+thead tr {
+    height: 60px;
+    background: #C8E0EA;
+    font-size: 16px;
+}
+
+tr:nth-child(1) {
+    height: 60px;
+    background: #C8E0EA !important;
+    border-color: #4EC5C1;
+}
+
+tr {
+    height: 48px;
+    border-bottom: 1px solid #C8E0EA;
+}
+
+tr:nth-child(even) {
+    background: #C8E0EA;
+}
+
+tr:nth-child(odd) {
+    background: #C8E0EA;
+}
+table ::placeholder{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*-----------------------------------------*/
+/*textarea format*/
+
+textarea {
+    color: white;
+    font-size: 14px;
+}
+±
+#first-line-textbox-1{
+    background-color: #C8E0EA;
+}
+#first-line-textbox-2{
+    background-color: #C8E0EA;
+}
+#first-line-textbox-3{
+    background-color: #C8E0EA;
+}
+#first-line-textbox-4{
+    background-color: #C8E0EA;
+}
+#first-line-textbox-5{
+    background-color: #C8E0EA;
+}
+
+#second-line-textbox{
+    background-color: #C8E0EA;
+}
+#third-line-textbox{
+    background-color: #C8E0EA;
+}
+#red-line-textbox{
+    background-color: #E54032;
+}
+
+/*-----------------------------------------*/
+/*formating buttons*/
+.button-panel {
+    margin: 0 auto;
+    background-color: #C8E0EA;
+ /*   border: 1px solid crimson; */
+    border-radius: 6px;
+    padding: 10px;
+    width: 38%;
+    margin-top: 10px
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.btn-danger:hover{
+    background-color: #a83734;
+    border-color: #a83734;
+}
+.btn-info:hover {
+    background-color: #459eda;
+    border-color: #459eda;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+
+.btn-warning{
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+.selectedElement{
+    background-color:#b2a4b0;
+}
+
+.btn-md{
+    padding: 8px 14px;
+    font-size: 15px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.btn-block{
+    display: block;
+    width: 100%;
+}
+.btn-row{
+    color: #fff;
+    background-color: #01ACAC;
+
+    border-color: #01ACAC;
+}
+
+.btn-row:hover{
+    background-color: #027c7c;
+    border-color: #027c7c;
+}
+
+.btn-success:hover{
+    background-color: #348734;
+    border-color: #348734;
+}
+/*-------------------------------------------*/
+/*kontekst*/
+.box{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 26px;
+    color: white;
+    margin-right: 40px;
+}
+
+/*------------------------------------------*/
